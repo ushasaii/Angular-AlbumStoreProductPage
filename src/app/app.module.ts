@@ -6,7 +6,6 @@ import { ProductServiceComponent} from './product.service;
 
 import { AppComponent } from './app.component';
 import { ProductPageComponent } from './product-page/product-page.component';
-import { ProductDescriptionnComponent } from './product-descriptionn/product-descriptionn.component';
 import { ProductDescriptionComponent } from './product-description/product-description.component';
 import { ProductService } from './product.service';
 
@@ -14,7 +13,6 @@ import { ProductService } from './product.service';
   declarations: [
     AppComponent,
     ProductPageComponent,
-    ProductDescriptionnComponent,
     ProductDescriptionComponent
   ],
   imports: [
