@@ -13,8 +13,7 @@ const appRouts: Routes =[
   { path: 'products', component:ProductListComponent},
   { path: 'products/:id',component:ProductPageComponent},
   { path: '',redirectTo: 'products',pathMatch: 'full'}
-  }
-]
+  ]
 @NgModule({
   declarations: [
     AppComponent,
